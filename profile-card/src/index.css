@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "KumbhSans";
+    src: url("../public/KumbhSans-VariableFont_YOPQ\,wght.ttf");
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: #1aa1ad;
+    font-family: "KumbhSans";
+    background-image: url("./images/bg-pattern-top.svg"),url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+        background-position: right 48vw bottom 40vh,
+            left 45vw top 44vh;
+}
